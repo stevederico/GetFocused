@@ -13,6 +13,9 @@
 		7B551D3715FC3A5000F0D466 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7B551D3515FC3A5000F0D466 /* Credits.rtf */; };
 		7B551D3A15FC3A5000F0D466 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B551D3915FC3A5000F0D466 /* AppDelegate.m */; };
 		7B551D3D15FC3A5000F0D466 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B551D3B15FC3A5000F0D466 /* MainMenu.xib */; };
+		7B551D4615FC402A00F0D466 /* FocusedWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B551D4415FC402A00F0D466 /* FocusedWindowController.m */; };
+		7B551D4715FC402A00F0D466 /* FocusedWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B551D4515FC402A00F0D466 /* FocusedWindowController.xib */; };
+		7B551D4915FC472000F0D466 /* _Log in Resources */ = {isa = PBXBuildFile; fileRef = 7B551D4815FC472000F0D466 /* _Log */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,10 @@
 		7B551D3815FC3A5000F0D466 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B551D3915FC3A5000F0D466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7B551D3C15FC3A5000F0D466 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7B551D4315FC402A00F0D466 /* FocusedWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusedWindowController.h; sourceTree = "<group>"; };
+		7B551D4415FC402A00F0D466 /* FocusedWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusedWindowController.m; sourceTree = "<group>"; };
+		7B551D4515FC402A00F0D466 /* FocusedWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FocusedWindowController.xib; sourceTree = "<group>"; };
+		7B551D4815FC472000F0D466 /* _Log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _Log; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +89,13 @@
 		7B551D2C15FC3A5000F0D466 /* GetFocused */ = {
 			isa = PBXGroup;
 			children = (
+				7B551D4815FC472000F0D466 /* _Log */,
 				7B551D3815FC3A5000F0D466 /* AppDelegate.h */,
 				7B551D3915FC3A5000F0D466 /* AppDelegate.m */,
 				7B551D3B15FC3A5000F0D466 /* MainMenu.xib */,
+				7B551D4315FC402A00F0D466 /* FocusedWindowController.h */,
+				7B551D4415FC402A00F0D466 /* FocusedWindowController.m */,
+				7B551D4515FC402A00F0D466 /* FocusedWindowController.xib */,
 				7B551D2D15FC3A5000F0D466 /* Supporting Files */,
 			);
 			path = GetFocused;
@@ -156,6 +167,8 @@
 				7B551D3115FC3A5000F0D466 /* InfoPlist.strings in Resources */,
 				7B551D3715FC3A5000F0D466 /* Credits.rtf in Resources */,
 				7B551D3D15FC3A5000F0D466 /* MainMenu.xib in Resources */,
+				7B551D4715FC402A00F0D466 /* FocusedWindowController.xib in Resources */,
+				7B551D4915FC472000F0D466 /* _Log in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +181,7 @@
 			files = (
 				7B551D3315FC3A5000F0D466 /* main.m in Sources */,
 				7B551D3A15FC3A5000F0D466 /* AppDelegate.m in Sources */,
+				7B551D4615FC402A00F0D466 /* FocusedWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
