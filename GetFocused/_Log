@@ -3,11 +3,11 @@
 
 9/10/12
 Added Menu Bar
-
+Added Databindings
+Add Durations
 
 -When running show time left
-
-
+-Add Persistence
 -Make FocusedWindowViewController Show on Launch
 -Setup TableView
 -Add Add Row Button

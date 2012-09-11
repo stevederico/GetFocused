@@ -37,8 +37,8 @@
 
 - (void)windowDidLoad {
     [super windowDidLoad];
-    
-    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+    [self.durationPopUp removeAllItems];
+    [self.durationPopUp addItemsWithTitles:[NSArray arrayWithObjects:@"30 Minutes",@"60 Minutes",@"90 Minutes", nil]];
 }
 
 - (IBAction)getFocusedClicked:(id)sender {
