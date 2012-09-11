@@ -5,11 +5,12 @@
 //  Created by Steve Derico on 9/8/12.
 //  Copyright (c) 2012 Bixby Apps. All rights reserved.
 //
-
+#import "Website.h"
 #import "FocusedWindowController.h"
 
-@interface FocusedWindowController () 
-
+@interface FocusedWindowController () {
+    NSUserDefaults *prefs;
+}
 @end
 
 @implementation FocusedWindowController
@@ -22,13 +23,19 @@
 - (id)initWithWindow:(NSWindow *)window {
     self = [super initWithWindow:window];
     if (self) {
-        // Initialization code here.
+        
+        prefs = [NSUserDefaults standardUserDefaults];
+        if ([prefs valueForKey:@"items"]!= nil) {
+            
+//            NSData *data = [prefs valueForKey:@"items"];
+//            self.items = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+        }else{
+            Website *fb = [[Website alloc] init];
+            fb.websiteURL = @"http://www.facebook.com";
+            self.items = [NSArray arrayWithObjects:fb, nil];
+        }
+
         self.arrayController = [[NSArrayController alloc] init];
-        NSMutableDictionary *fb = [[NSMutableDictionary alloc] init];
-        [fb setValue:@"Facebook" forKey:@"Name"];
-        [fb setValue:@"http://www.facebook.com" forKey:@"URL"];
-        [fb setValue:[NSNumber numberWithBool:YES] forKey:@"Status"];
-        self.items = [NSArray arrayWithObject:fb];
         self.arrayController.content = self.items;
     }
     
@@ -39,9 +46,16 @@
     [super windowDidLoad];
     [self.durationPopUp removeAllItems];
     [self.durationPopUp addItemsWithTitles:[NSArray arrayWithObjects:@"30 Minutes",@"60 Minutes",@"90 Minutes", nil]];
+    
+ 
 }
 
 - (IBAction)getFocusedClicked:(id)sender {
+    NSLog(@"%@",self.items);
+////    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:self.items];
+//    [prefs setValue:self.items forKey:@"items"];
+//    [prefs synchronize];
+    
 }
 
 - (IBAction)addButton:(id)sender {

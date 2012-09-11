@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7B46102B15FEC2CD00A1C4D9 /* Website.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B46102A15FEC2CD00A1C4D9 /* Website.m */; };
+		7B46103815FF861700A1C4D9 /* MenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B46103515FF861700A1C4D9 /* MenubarController.m */; };
+		7B46103915FF861700A1C4D9 /* PanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B46103715FF861700A1C4D9 /* PanelController.m */; };
+		7B46104015FF862500A1C4D9 /* Panel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B46103B15FF862500A1C4D9 /* Panel.m */; };
+		7B46104115FF862500A1C4D9 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B46103D15FF862500A1C4D9 /* StatusItemView.m */; };
+		7B46104215FF862500A1C4D9 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B46103F15FF862500A1C4D9 /* BackgroundView.m */; };
+		7B46104415FF862E00A1C4D9 /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B46104315FF862E00A1C4D9 /* Panel.xib */; };
+		7B46104715FF863B00A1C4D9 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B46104515FF863B00A1C4D9 /* Status.png */; };
+		7B46104815FF863B00A1C4D9 /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B46104615FF863B00A1C4D9 /* StatusHighlighted.png */; };
 		7B551D2715FC3A5000F0D466 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B551D2615FC3A5000F0D466 /* Cocoa.framework */; };
 		7B551D3115FC3A5000F0D466 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B551D2F15FC3A5000F0D466 /* InfoPlist.strings */; };
 		7B551D3315FC3A5000F0D466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B551D3215FC3A5000F0D466 /* main.m */; };
@@ -22,6 +30,19 @@
 /* Begin PBXFileReference section */
 		7B46102915FEC2CD00A1C4D9 /* Website.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Website.h; sourceTree = "<group>"; };
 		7B46102A15FEC2CD00A1C4D9 /* Website.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Website.m; sourceTree = "<group>"; };
+		7B46103415FF861700A1C4D9 /* MenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenubarController.h; sourceTree = "<group>"; };
+		7B46103515FF861700A1C4D9 /* MenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenubarController.m; sourceTree = "<group>"; };
+		7B46103615FF861700A1C4D9 /* PanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelController.h; sourceTree = "<group>"; };
+		7B46103715FF861700A1C4D9 /* PanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelController.m; sourceTree = "<group>"; };
+		7B46103A15FF862500A1C4D9 /* Panel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Panel.h; sourceTree = "<group>"; };
+		7B46103B15FF862500A1C4D9 /* Panel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Panel.m; sourceTree = "<group>"; };
+		7B46103C15FF862500A1C4D9 /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
+		7B46103D15FF862500A1C4D9 /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
+		7B46103E15FF862500A1C4D9 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		7B46103F15FF862500A1C4D9 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		7B46104315FF862E00A1C4D9 /* Panel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Panel.xib; sourceTree = "<group>"; };
+		7B46104515FF863B00A1C4D9 /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Status.png; sourceTree = "<group>"; };
+		7B46104615FF863B00A1C4D9 /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusHighlighted.png; sourceTree = "<group>"; };
 		7B551D2215FC3A5000F0D466 /* GetFocused.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetFocused.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B551D2615FC3A5000F0D466 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7B551D2915FC3A5000F0D466 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -53,6 +74,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B46103115FF85CA00A1C4D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B46104515FF863B00A1C4D9 /* Status.png */,
+				7B46104615FF863B00A1C4D9 /* StatusHighlighted.png */,
+				7B46103A15FF862500A1C4D9 /* Panel.h */,
+				7B46103B15FF862500A1C4D9 /* Panel.m */,
+				7B46103C15FF862500A1C4D9 /* StatusItemView.h */,
+				7B46103D15FF862500A1C4D9 /* StatusItemView.m */,
+				7B46103E15FF862500A1C4D9 /* BackgroundView.h */,
+				7B46103F15FF862500A1C4D9 /* BackgroundView.m */,
+				7B46104315FF862E00A1C4D9 /* Panel.xib */,
+				7B551D4515FC402A00F0D466 /* FocusedWindowController.xib */,
+				7B551D3B15FC3A5000F0D466 /* MainMenu.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7B46103215FF85D500A1C4D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B46102915FEC2CD00A1C4D9 /* Website.h */,
+				7B46102A15FEC2CD00A1C4D9 /* Website.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7B46103315FF85D900A1C4D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B551D3815FC3A5000F0D466 /* AppDelegate.h */,
+				7B551D3915FC3A5000F0D466 /* AppDelegate.m */,
+				7B551D4315FC402A00F0D466 /* FocusedWindowController.h */,
+				7B551D4415FC402A00F0D466 /* FocusedWindowController.m */,
+				7B46103415FF861700A1C4D9 /* MenubarController.h */,
+				7B46103515FF861700A1C4D9 /* MenubarController.m */,
+				7B46103615FF861700A1C4D9 /* PanelController.h */,
+				7B46103715FF861700A1C4D9 /* PanelController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		7B551D1715FC3A5000F0D466 = {
 			isa = PBXGroup;
 			children = (
@@ -93,14 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				7B551D4815FC472000F0D466 /* _Log */,
-				7B551D3815FC3A5000F0D466 /* AppDelegate.h */,
-				7B551D3915FC3A5000F0D466 /* AppDelegate.m */,
-				7B551D3B15FC3A5000F0D466 /* MainMenu.xib */,
-				7B551D4315FC402A00F0D466 /* FocusedWindowController.h */,
-				7B551D4415FC402A00F0D466 /* FocusedWindowController.m */,
-				7B551D4515FC402A00F0D466 /* FocusedWindowController.xib */,
-				7B46102915FEC2CD00A1C4D9 /* Website.h */,
-				7B46102A15FEC2CD00A1C4D9 /* Website.m */,
+				7B46103315FF85D900A1C4D9 /* Controller */,
+				7B46103215FF85D500A1C4D9 /* Model */,
+				7B46103115FF85CA00A1C4D9 /* View */,
 				7B551D2D15FC3A5000F0D466 /* Supporting Files */,
 			);
 			path = GetFocused;
@@ -174,6 +232,9 @@
 				7B551D3D15FC3A5000F0D466 /* MainMenu.xib in Resources */,
 				7B551D4715FC402A00F0D466 /* FocusedWindowController.xib in Resources */,
 				7B551D4915FC472000F0D466 /* _Log in Resources */,
+				7B46104415FF862E00A1C4D9 /* Panel.xib in Resources */,
+				7B46104715FF863B00A1C4D9 /* Status.png in Resources */,
+				7B46104815FF863B00A1C4D9 /* StatusHighlighted.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +249,11 @@
 				7B551D3A15FC3A5000F0D466 /* AppDelegate.m in Sources */,
 				7B551D4615FC402A00F0D466 /* FocusedWindowController.m in Sources */,
 				7B46102B15FEC2CD00A1C4D9 /* Website.m in Sources */,
+				7B46103815FF861700A1C4D9 /* MenubarController.m in Sources */,
+				7B46103915FF861700A1C4D9 /* PanelController.m in Sources */,
+				7B46104015FF862500A1C4D9 /* Panel.m in Sources */,
+				7B46104115FF862500A1C4D9 /* StatusItemView.m in Sources */,
+				7B46104215FF862500A1C4D9 /* BackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
