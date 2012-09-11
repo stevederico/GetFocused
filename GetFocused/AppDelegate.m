@@ -25,6 +25,7 @@
 
 
 - (IBAction)startClicked:(id)sender {
+        //Write to HostFile
 }
 
 - (IBAction)preferencesClicked:(id)sender {
@@ -36,5 +37,6 @@
 }
 
 - (IBAction)quitClicked:(id)sender {
+    
 }
 @end

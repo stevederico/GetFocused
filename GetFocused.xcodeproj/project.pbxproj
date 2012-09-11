@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B46102B15FEC2CD00A1C4D9 /* Website.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B46102A15FEC2CD00A1C4D9 /* Website.m */; };
 		7B551D2715FC3A5000F0D466 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B551D2615FC3A5000F0D466 /* Cocoa.framework */; };
 		7B551D3115FC3A5000F0D466 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B551D2F15FC3A5000F0D466 /* InfoPlist.strings */; };
 		7B551D3315FC3A5000F0D466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B551D3215FC3A5000F0D466 /* main.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B46102915FEC2CD00A1C4D9 /* Website.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Website.h; sourceTree = "<group>"; };
+		7B46102A15FEC2CD00A1C4D9 /* Website.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Website.m; sourceTree = "<group>"; };
 		7B551D2215FC3A5000F0D466 /* GetFocused.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetFocused.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B551D2615FC3A5000F0D466 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7B551D2915FC3A5000F0D466 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -96,6 +99,8 @@
 				7B551D4315FC402A00F0D466 /* FocusedWindowController.h */,
 				7B551D4415FC402A00F0D466 /* FocusedWindowController.m */,
 				7B551D4515FC402A00F0D466 /* FocusedWindowController.xib */,
+				7B46102915FEC2CD00A1C4D9 /* Website.h */,
+				7B46102A15FEC2CD00A1C4D9 /* Website.m */,
 				7B551D2D15FC3A5000F0D466 /* Supporting Files */,
 			);
 			path = GetFocused;
@@ -182,6 +187,7 @@
 				7B551D3315FC3A5000F0D466 /* main.m in Sources */,
 				7B551D3A15FC3A5000F0D466 /* AppDelegate.m in Sources */,
 				7B551D4615FC402A00F0D466 /* FocusedWindowController.m in Sources */,
+				7B46102B15FEC2CD00A1C4D9 /* Website.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 				7B551D4215FC3A5000F0D466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
