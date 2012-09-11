@@ -8,8 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate>{
+    IBOutlet NSMenu *statusMenu;
+    NSStatusItem * statusItem;
+    FocusedWindowController *fwc;
+}
+@property (nonatomic, strong) IBOutlet NSMenu *statusMenu;
+- (IBAction)startClicked:(id)sender;
+- (IBAction)preferencesClicked:(id)sender;
+- (IBAction)quitClicked:(id)sender;
 
-@property (assign) IBOutlet NSWindow *window;
 
 @end
