@@ -20,6 +20,7 @@
 @synthesize delegate = _delegate;
 @synthesize searchField = _searchField;
 @synthesize textField = _textField;
+@synthesize minutesPopUpButton = _minutesPopUpButton;
 
 #pragma mark -
 
@@ -31,6 +32,10 @@
         _delegate = delegate;
     }
     return self;
+}
+
+- (IBAction)getFocusedClicked:(id)sender {
+    
 }
 
 - (void)dealloc
@@ -45,6 +50,7 @@
     [super awakeFromNib];
     
     self.items = [[NSArray alloc] init];
+    [self.minutesPopUpButton addItemsWithTitles:@[@"10 Minutes", @"15 Minutes", @"30 Minutes"]];
     
     // Make a fully skinned panel
     NSPanel *panel = (id)[self window];

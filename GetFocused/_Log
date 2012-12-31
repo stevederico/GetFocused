@@ -3,21 +3,23 @@ Added Menu Bar
 Added Databindings
 Add Durations
 Added Quit Functionality
-
+Add Add Row Button
+Add Remove Functionality
+Add Edit Functionality
+Setup TableView
 
 12/30/12
 Removed FocusWindowController
 Removed Extra Instance Variables and Methods
 Fixed Panel Add Bug
+Added Minutes and IBOutlets for Buttons
 
-
--When running show time left
--Add Persistence
-
--Setup TableView
--Add Add Row Button
--Add Remove Functionality
--Add Edit Functionality
+MUST
 -Add Timer Set & Start
--Add Toolbar Clock
+-Write to localhost file
+
+
+NICE
 -When adding an item set textField to firstResponder
+-Add Toolbar Clock -When running show time left
+-Add Persistence (Core Data)
