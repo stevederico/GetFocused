@@ -22,8 +22,6 @@
 		7B551D3715FC3A5000F0D466 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7B551D3515FC3A5000F0D466 /* Credits.rtf */; };
 		7B551D3A15FC3A5000F0D466 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B551D3915FC3A5000F0D466 /* AppDelegate.m */; };
 		7B551D3D15FC3A5000F0D466 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B551D3B15FC3A5000F0D466 /* MainMenu.xib */; };
-		7B551D4615FC402A00F0D466 /* FocusedWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B551D4415FC402A00F0D466 /* FocusedWindowController.m */; };
-		7B551D4715FC402A00F0D466 /* FocusedWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B551D4515FC402A00F0D466 /* FocusedWindowController.xib */; };
 		7B551D4915FC472000F0D466 /* _Log in Resources */ = {isa = PBXBuildFile; fileRef = 7B551D4815FC472000F0D466 /* _Log */; };
 /* End PBXBuildFile section */
 
@@ -56,9 +54,6 @@
 		7B551D3815FC3A5000F0D466 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B551D3915FC3A5000F0D466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7B551D3C15FC3A5000F0D466 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		7B551D4315FC402A00F0D466 /* FocusedWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusedWindowController.h; sourceTree = "<group>"; };
-		7B551D4415FC402A00F0D466 /* FocusedWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusedWindowController.m; sourceTree = "<group>"; };
-		7B551D4515FC402A00F0D466 /* FocusedWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FocusedWindowController.xib; sourceTree = "<group>"; };
 		7B551D4815FC472000F0D466 /* _Log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _Log; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,8 +72,6 @@
 		7B46103115FF85CA00A1C4D9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7B46104515FF863B00A1C4D9 /* Status.png */,
-				7B46104615FF863B00A1C4D9 /* StatusHighlighted.png */,
 				7B46103A15FF862500A1C4D9 /* Panel.h */,
 				7B46103B15FF862500A1C4D9 /* Panel.m */,
 				7B46103C15FF862500A1C4D9 /* StatusItemView.h */,
@@ -86,7 +79,6 @@
 				7B46103E15FF862500A1C4D9 /* BackgroundView.h */,
 				7B46103F15FF862500A1C4D9 /* BackgroundView.m */,
 				7B46104315FF862E00A1C4D9 /* Panel.xib */,
-				7B551D4515FC402A00F0D466 /* FocusedWindowController.xib */,
 				7B551D3B15FC3A5000F0D466 /* MainMenu.xib */,
 			);
 			name = View;
@@ -106,8 +98,6 @@
 			children = (
 				7B551D3815FC3A5000F0D466 /* AppDelegate.h */,
 				7B551D3915FC3A5000F0D466 /* AppDelegate.m */,
-				7B551D4315FC402A00F0D466 /* FocusedWindowController.h */,
-				7B551D4415FC402A00F0D466 /* FocusedWindowController.m */,
 				7B46103415FF861700A1C4D9 /* MenubarController.h */,
 				7B46103515FF861700A1C4D9 /* MenubarController.m */,
 				7B46103615FF861700A1C4D9 /* PanelController.h */,
@@ -167,6 +157,7 @@
 		7B551D2D15FC3A5000F0D466 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7BA295071691446900DE8CE7 /* Images */,
 				7B551D2E15FC3A5000F0D466 /* GetFocused-Info.plist */,
 				7B551D2F15FC3A5000F0D466 /* InfoPlist.strings */,
 				7B551D3215FC3A5000F0D466 /* main.m */,
@@ -174,6 +165,15 @@
 				7B551D3515FC3A5000F0D466 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BA295071691446900DE8CE7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7B46104515FF863B00A1C4D9 /* Status.png */,
+				7B46104615FF863B00A1C4D9 /* StatusHighlighted.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +230,6 @@
 				7B551D3115FC3A5000F0D466 /* InfoPlist.strings in Resources */,
 				7B551D3715FC3A5000F0D466 /* Credits.rtf in Resources */,
 				7B551D3D15FC3A5000F0D466 /* MainMenu.xib in Resources */,
-				7B551D4715FC402A00F0D466 /* FocusedWindowController.xib in Resources */,
 				7B551D4915FC472000F0D466 /* _Log in Resources */,
 				7B46104415FF862E00A1C4D9 /* Panel.xib in Resources */,
 				7B46104715FF863B00A1C4D9 /* Status.png in Resources */,
@@ -247,7 +246,6 @@
 			files = (
 				7B551D3315FC3A5000F0D466 /* main.m in Sources */,
 				7B551D3A15FC3A5000F0D466 /* AppDelegate.m in Sources */,
-				7B551D4615FC402A00F0D466 /* FocusedWindowController.m in Sources */,
 				7B46102B15FEC2CD00A1C4D9 /* Website.m in Sources */,
 				7B46103815FF861700A1C4D9 /* MenubarController.m in Sources */,
 				7B46103915FF861700A1C4D9 /* PanelController.m in Sources */,

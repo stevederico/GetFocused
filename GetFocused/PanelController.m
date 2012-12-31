@@ -43,10 +43,8 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
-    Website *fb = [[Website alloc] init];
-    [fb setWebsiteURL:@"http://www.facebook.com"];
+
     
-    self.items = [[NSArray alloc] initWithObjects:fb, nil];
     // Make a fully skinned panel
     NSPanel *panel = (id)[self window];
     [panel setAcceptsMouseMovedEvents:YES];
@@ -147,13 +145,11 @@
 
 #pragma mark - Keyboard
 
-- (void)cancelOperation:(id)sender
-{
+- (void)cancelOperation:(id)sender {
     self.hasActivePanel = NO;
 }
 
-- (void)runSearch
-{
+- (void)runSearch {
     NSString *searchFormat = @"";
     NSString *searchString = [self.searchField stringValue];
     if ([searchString length] > 0)
@@ -166,8 +162,7 @@
 
 #pragma mark - Public methods
 
-- (NSRect)statusRectForWindow:(NSWindow *)window
-{
+- (NSRect)statusRectForWindow:(NSWindow *)window {
     NSRect screenRect = [[[NSScreen screens] objectAtIndex:0] frame];
     NSRect statusRect = NSZeroRect;
     
@@ -191,8 +186,7 @@
     return statusRect;
 }
 
-- (void)openPanel
-{
+- (void)openPanel {
     NSWindow *panel = [self window];
     
     NSRect screenRect = [[[NSScreen screens] objectAtIndex:0] frame];

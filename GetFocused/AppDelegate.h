@@ -9,11 +9,12 @@
 #import "PanelController.h"
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate>{
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate, PanelControllerDelegate>{
     IBOutlet NSMenu *statusMenu;
     NSStatusItem * statusItem;
-    FocusedWindowController *fwc;
+    
 }
+
 @property (nonatomic, strong) IBOutlet NSMenu *statusMenu;
 @property (nonatomic, strong) MenubarController *menubarController;
 @property (nonatomic, strong, readonly) PanelController *panelController;
