@@ -9,19 +9,10 @@
 #import "PanelController.h"
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate, PanelControllerDelegate>{
-    IBOutlet NSMenu *statusMenu;
-    NSStatusItem * statusItem;
-    
-}
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate, PanelControllerDelegate>
 
 @property (nonatomic, strong) IBOutlet NSMenu *statusMenu;
 @property (nonatomic, strong) MenubarController *menubarController;
 @property (nonatomic, strong, readonly) PanelController *panelController;
-
-- (IBAction)startClicked:(id)sender;
-- (IBAction)preferencesClicked:(id)sender;
-- (IBAction)quitClicked:(id)sender;
-- (IBAction)togglePanel:(id)sender;
 
 @end

@@ -4,9 +4,14 @@ Added Databindings
 Add Durations
 Added Quit Functionality
 
+
+12/30/12
+Removed FocusWindowController
+Removed Extra Instance Variables and Methods
+
 -When running show time left
 -Add Persistence
--Make FocusedWindowViewController Show on Launch
+
 -Setup TableView
 -Add Add Row Button
 -Add Remove Functionality
