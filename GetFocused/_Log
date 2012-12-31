@@ -8,6 +8,8 @@ Added Quit Functionality
 12/30/12
 Removed FocusWindowController
 Removed Extra Instance Variables and Methods
+Fixed Panel Add Bug
+
 
 -When running show time left
 -Add Persistence

@@ -43,7 +43,8 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
-
+    
+    self.items = [[NSArray alloc] init];
     
     // Make a fully skinned panel
     NSPanel *panel = (id)[self window];
