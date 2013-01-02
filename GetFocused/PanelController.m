@@ -35,7 +35,10 @@
 }
 
 - (IBAction)getFocusedClicked:(id)sender {
-    
+        //write to hostfiles with sudo privledges
+        
+        //refresh dnscache
+        //start timer
 }
 
 - (void)dealloc
